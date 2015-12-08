@@ -1,7 +1,7 @@
 ---
-title: Report
-author: Quim Llimona
-layout: page
+title: Report 
+author: Quim Llimona 
+layout: default 
 ---
 
 External links to other projects of mine:

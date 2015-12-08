@@ -21,23 +21,22 @@ It follows from intuition that an instrument with a very wide region of the cont
 {% endcomment %}
 
 
+
+According to (Woodhouse, 2004), what makes a violin (or any bowed string instrument, for that matter) good is a combination of its _tone_ and its _playability_. The instrument's tone refers to its sonic signature, to how listeners may rate its sound, and is usually associated with the spectral shape of the sound, closely related to the resonance modes of the body and therefore to its impulse response. Playability, by contrast, refers to how _easy_ it is to obtain good tone from the instrument, where good tone means Helmholtz motion, regardless of its quality. These two dimensions are not necessarily correlated; it is well known that Stradiavari violins, considered amongst the best in the world, have actually bad playability; unless played with great care and good tuning, they will not deliver what one would expect from them.
+
+While this definition may prove quite intuitive to the reader, it is quite hard to translate it into something tangible that can be measured or compared. In this section, we will describe a framework, building on what was presented in (Llimona, 2015), for talking about concepts such as playability.
+
 > Input (model, score, gestures) -> output (regime, perceptual descriptors)
 
-## Model space
+## Model, gesture, and acoustic spaces
 
-> - Model choices
-> - Model parameters
+- *Model space*: 
+- *Gesture space*:
+- *Acoustic space*:
 
-## Gesture space
+## Playability as a spatial mapping description
 
-> (sometimes referred as the parameter space)
 
-## Sonic space
-
-> - Regimes
-> - Perceptual characteristics of sound
-
-# Regime maps
-
+## Beyond playability (?)
 
 

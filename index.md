@@ -3,7 +3,7 @@ title: Report
 layout: default 
 ---
 
-![](img/violin_scroll.png)
+![](img/violin_scroll.jpg)
 
 Welcome to my MUMT618 Final Project report! In this website you will find
 information about my project on how the driving-point admittance, which

@@ -4,12 +4,13 @@ markdown:         kramdown
 
 # Setup
 title:            'MUMT618'
-tagline:          'Driving-point admittance effects on the static playability of bowed strings'
-description:      'A case study using simulations from a bowed string physical model including finite-width thermal friction and hair dynamics'
+description:      'Driving-point admittance effects on the static playability of bowed strings'
+tagline:          'A case study using simulations from a bowed string physical model including finite-width thermal friction and hair dynamics'
 url:              https://lemonzi.github.io
 baseurl:          /MUMT618/
 
 author:
   name:           'Quim Llimona'
+  affiliation:    'McGill University'
   url:            http://lemonzi.me
 

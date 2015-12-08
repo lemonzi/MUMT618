@@ -1,47 +1,24 @@
 ---
 title: Report 
-author: Quim Llimona 
 layout: default 
 ---
 
-External links to other projects of mine:
+![](img/violin_scroll.png)
 
- - MUSMAP reports (for gestures vs sound)
- - UAB thesis (for playability definitions)
+Welcome to my MUMT618 Final Project report! In this website you will find
+information about my project on how the driving-point admittance, which
+captures the effects of the instrument body, has on the playability of bowed
+string instruments when played under static bowing conditions.
 
-# Performing on a bowed string
+Playability is one of the essential characteristics, together with tone, that
+confer to many instruments their identity. New numerical methods for
+physically-based simulation of sound are allowing very detailed studies at how
+instruments respond to slightly different inputs, which is what playability is
+about. This project is a take at better understanding this concept in the
+particular case of analyzing what happens then the driving-point admittance,
+one of the most instrinsic characteristics of bowed string instruments,
+changes.
 
-Input (model, score, gestures) -> output (regime, perceptual descriptors)
-
-## Model space
-
-- Model choices
-- Model parameters
-
-## Gesture space
-
-(sometimes referred as the parameter space)
-
-## Sonic space
-
-- Regimes
-- Perceptual characteristics of sound
-
-# Regime maps
-
-
-# Playability
-
-# Regime estionation
-
-See [this](regime_estimation)
-
-# Theoretical minimum force
-
-# Estimated minimum force
-
-# Results
-
-# Rosin effects
-
+The different sections are broken down into pages. Please use the left menu for
+navigating, or start [here](intro).
 

@@ -75,12 +75,23 @@ html {
   color: #fff;
 }
 
+.sidebar a.discrete-link {
+  color: rgba(255,255,255,.7);
+}
+
+.sidebar .small {
+  font-size: .9rem;
+  font-weight: 100;
+  color: rgba(255,255,255,.4);
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 /* Sidebar nav */

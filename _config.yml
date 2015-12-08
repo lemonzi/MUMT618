@@ -1,21 +1,17 @@
-# Dependencies
-markdown:         kramdown
-#highlighter:      pygments
-
 # Site
 title:            'MUMT618'
 description:      'Driving-point admittance effects on the static playability of bowed strings'
 tagline:          'A case study using simulations from a bowed string physical model including finite-width thermal friction and hair dynamics'
-
-# Ignore list
-exclude:
-  - Makefile
-  - README.md
-  - LICENSE.md
+sidebar:
+  - intro
+  - minimum_bow_force
+  - regime_estimation
+  - results
+  - bibliography
 
 # Deployment
 url:              https://lemonzi.github.io
-baseurl:          /MUMT618/
+baseurl:          /MUMT618
 
 # Me
 author:
@@ -23,4 +19,9 @@ author:
   affiliation:    'McGill University'
   url:            http://lemonzi.me
 
+# Ignore list
+exclude:
+  - Makefile
+  - README.md
+  - LICENSE.md
 

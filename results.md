@@ -1,6 +1,7 @@
 ---
 title: Results
 layout: page
+slug: results
 ---
 
 Here go the results.

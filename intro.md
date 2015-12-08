@@ -1,6 +1,7 @@
 ---
 title: What is playability?
 layout: page
+slug: intro
 ---
 
 {% comment %}

@@ -1,6 +1,7 @@
 ---
 title: Theoretical minimum bow force
 layout: page
+slug: minimum_bow_force
 ---
 
 One of the sections in (Woodhouse, 1993) contains the probably most

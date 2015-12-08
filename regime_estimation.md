@@ -1,7 +1,7 @@
 ---
 title: Regime estimation
 layout: page
-author: Quim Llimona
+slug: regime_estimation
 ---
 
 In this section, we describe methods for estimating the vibrational regime of a bowed string given the different time series a model can provide, which we call probes, during a simulation with some bowing parameters.

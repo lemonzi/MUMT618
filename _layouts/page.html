@@ -5,8 +5,8 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {% capture data %}
-    {{ content }}
-    {% include links.md.html %}
+{{ content }}
+{% include links.md %}
   {% endcapture %}
   {{ data | markdownify }}
 </div>

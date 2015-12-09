@@ -1,4 +1,21 @@
 - author: Woodhouse
   year: 1993
-  cite: 'Playability of bowed strings, blah'
+  cite: 'Woodhouse, J. *On the Playability of Violins, Part II: Minimum bow force and transients*. Acustica, 78:137–153, 1993'
+
+- author: Llimona
+  year: 2015
+  cite: 'Llimona, Q. *Playability study of a bowed string physical model including finite-width thermal friction and hair dynamics*. Master Thesis, Universitat Autònoma de Barcelona, 2015.'
+  link: pdf/thesis.pdf
+
+- author: Raman
+  year: 1918
+  cite: 'C. V. Raman. *On the mechanical theory of the vibrations of bowed strings*. Bulletin of the Indian Association for the Cultivation of Science, 15:1–158, 1918.'
+
+- author: Woodhouse
+  year: 2004
+  cite: 'J. Woodhouse and P. Galluzzo. *The bowed string as we know it today*. Acustica - Acta Acustica, 90(4):579–589, 2004.'
+
+- author: Serafin
+  year: 1999
+  cite: 'S. Serafin, J. O. Smith, and J. Woodhouse. *An investigation on the impact of torsion waves and friction characteristics on the playability of virtual bowed strings*. In Proceedings of the 1999 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, New Platz, New York, USA, 1999.'
 

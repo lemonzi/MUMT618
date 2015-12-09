@@ -1,7 +1,7 @@
 # Site
-title:            'MUMT618'
-description:      'Driving-point admittance effects on the static playability of bowed strings'
-tagline:          'A case study using simulations from a bowed string physical model including finite-width thermal friction and hair dynamics'
+title: 'MUMT618'
+description: 'Driving-point admittance effects on the static playability of bowed strings'
+tagline: 'A case study using simulations from a bowed string physical model including finite-width thermal friction and hair dynamics'
 sidebar:
   - intro
   - minimum_bow_force
@@ -24,5 +24,4 @@ exclude:
   - Makefile
   - README.md
   - LICENSE.md
-  - parse_bib.sed
 

@@ -5,9 +5,16 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   {% capture data %}
-    {{ content }}
-    {% include bib.md.html %}
-    {% include links.md.html %}
-  {% endcapture %}
-  {{ data | markdownify }}
+
+{{ content }}
+
+      {% for ref in site.data.references %}
+[({{ ref.author }}, {{ ref.year }})][{{ ref.author }}{{ ref.year }}]
+
+> {{ ref.cite }}
+      {% endfor %}
+
+{% include links.md %}
+
+  {% endcapture %}{{ data | markdownify }}
 </div>

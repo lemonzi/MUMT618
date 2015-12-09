@@ -1,4 +1,4 @@
-#!/usr/bin/env sed -E
+#!/bin/bash
 
 # This script compiles a markdown document read from stdin into
 # another markdown document and replace all instances of 
@@ -7,4 +7,10 @@
 # It will skip already-processed citations, so it is safe to use it
 # in-place.
 
-s|\(([[:alpha:]]+), ([[:digit:]]+[[:alpha:]]*)\)([^]])|[(\1, \2)][\1\2]\3|g
+BIBREGEX='s|\(([[:alpha:]]+), ([[:digit:]]+[[:alpha:]]*)\)([^]])|[(\1, \2)][\1\2]\3|g'
+
+for f in _content/*.md; do
+    name=$(basename "$f")
+    sed -E "$BIBREGEX" <$f >"${name%%.*}".html
+done
+

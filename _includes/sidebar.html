@@ -20,9 +20,9 @@
 
       {% assign pages_list = site.sidebar %}
       {% for page_slug in pages_list %}
-        {% for page in site.pages %}
-          {% if page.slug == page_slug %}
-            {% assign node = page %}
+        {% for p in site.pages %}
+          {% if p.slug == page_slug %}
+            {% assign node = p %}
           {% endif %}
         {% endfor %}
         {% if node.title != null %}
@@ -31,6 +31,8 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+
+      <a class="sidebar-nav-item{% if page.layout == 'bibliography' %} active{% endif %}" href="{{ site.baseurl }}/bibliography">Bibliography</a>
 
     </nav>
 

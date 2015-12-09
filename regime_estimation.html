@@ -18,7 +18,7 @@ However, the set of regimes to discern are something decided post-hoc and that w
 There are two large groups of regime sets that we can use: discrete or symbolic, where the regime takes a finite number of values that represent distinct categories (e.g. proper Helmholtz vibration or otherwise), and continuous or descriptive, where the regime is a number or vector that describes the vibration in a generic way (e.g. the mean harmonic-to-noise ratio, or the mean pitch). 
 Sometimes it is possible to relate two regime sets; for instance, we may estimate the regime within a symbolic set given a regime descriptor and some thresholds.
 
-In this project, we will be dealiing mainly with two symbolic regime sets: one that tells us whether the current regime is the one described in (Helmholtz, 1895) or not, and another that uses a classification similar to the one in (Raman, 19XX): Anomalous Low-Frequency oscillations (ALF), Multiple Stick-Slip cycles (MSS), Aperiodic motion, Helmholtz motion, and continuous slipping (or sticking). 
+In this project, we will be dealing mainly with two symbolic regime sets: one that tells us whether the current regime is the one described in [(Helmholtz, 1895)][Helmholtz1895] or not, and another that uses a classification similar to the one in [(Raman, 19XX)][Raman19XX]: Anomalous Low-Frequency oscillations (ALF), Multiple Stick-Slip cycles (MSS), Aperiodic motion, Helmholtz motion, and continuous slipping (or sticking). 
 For this latter case, we have devised a color palette that we use consistently in plots on our works.
 
 ![](img/colormap.png)
@@ -27,18 +27,18 @@ For this latter case, we have devised a color palette that we use consistently i
 ## Regime detectors found in the literature
 
 There are different methods mentioned in the literature for computing the regime of a simulated bowed string. 
-The first article that mentions the numerical estimation of vibrational regimes in simulated bowed strings is \cite{woodhouse_playability}, in which the author suggests driving a nonlinear model with a variety of inputs that sweep a space in order to get a map, a la Mandelbrot. 
+The first article that mentions the numerical estimation of vibrational regimes in simulated bowed strings is [(Woodhouse, 1993)][Woodhouse1993], in which the author suggests driving a nonlinear model with a variety of inputs that sweep a space in order to get a map, a la Mandelbrot. 
 He suggests simulating a note with a duration of 100 expected period lengths. 
 Then, the string velocity corresponding to the last five periods is used for good tone estimation. 
 He computes the correlation between what are expected consecutive periods and, therefore, a high value will indicate that there is indeed periodic motion. 
 This oscillation will have a rate either equal to the expected or to one of its multiples. 
 If that is the case, the number of slipping regions within each period is estimated (a slipping region corresponds to a negative velocity, opposed to the bow movement), and if it is greater than one the segment is discarded, attributing to a higher regime of multiple stick-slips. 
 The author already acknowledges that there are difficulties when partial multiple slips appear, and that this algorithm is very rough and calls for future revision. 
-Nevertheless, the authors of \cite{torsion_friction_playability} used the very same method when comparing different formulations of the model and different trade-offs.
+Nevertheless, the authors of [(Serafin, 1999)][Serafin1999] used the very same method when comparing different formulations of the model and different trade-offs.
 
 ## Regime detectors for our extended regime set 
 
-In (Llimona, 2015) we estimated the regime by applying the YIN pitch detection algorithm on the transversal velocity of the string (horizontal polarization) under the bow. 
+In [(Llimona, 2015)][Llimona2015] we estimated the regime by applying the YIN pitch detection algorithm on the transversal velocity of the string (horizontal polarization) under the bow. 
 This gave us two time series, one for the pitch and the other for the aperiodicity of the signal. 
 These new signals had been computed using a sliding window. 
 From there, we checked some statistics (mean pitch and aperiodicity) against manually tuned thresholds for determining the regime.
@@ -51,7 +51,7 @@ This is especially relevant in edge cases where, for instance, the string vibrat
 ## Our custom regime detector
 
 In this project, we designed a new detector that relies on whether the string is actually slipping or sticking at each time step. 
-In the model we are using, detailed in (Maestre, 2013), this state appears explicitly in the equations, and is therefore easy to obtain programatically. 
+In the model we are using, detailed in [(Maestre, 2013)][Maestre2013], this state appears explicitly in the equations, and is therefore easy to obtain programatically. 
 In fact, since the model has a finite bow width, we have access to the sticking state of each of the equivalent bow hairs. 
 In this algorithm, we chose to construct a binary variable that tells us whether at least one of the equivalent bow hairs is in a stick state.
 

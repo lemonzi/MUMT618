@@ -3,7 +3,7 @@ title: Report
 layout: default 
 ---
 
-![](img/violin_scroll.jpg)
+![A violin scroll.](img/violin_scroll.jpg)
 
 Welcome to my MUMT618 Final Project report! In this website you will find
 information about my project on how the driving-point admittance, which
@@ -16,9 +16,10 @@ physically-based simulation of sound are allowing very detailed studies at how
 instruments respond to slightly different inputs, which is what playability is
 about. This project is a take at better understanding this concept in the
 particular case of analyzing what happens then the driving-point admittance,
-one of the most instrinsic characteristics of bowed string instruments,
+one of the most intrinsic characteristics of bowed string instruments,
 changes.
 
 The different sections are broken down into pages. Please use the left menu for
 navigating, or start [here](intro).
 
+You can also find the slides from the presentation [here](pdf/slides.pdf).

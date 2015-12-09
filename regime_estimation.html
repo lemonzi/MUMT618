@@ -18,7 +18,7 @@ However, the set of regimes to discern are something decided post-hoc and that w
 There are two large groups of regime sets that we can use: discrete or symbolic, where the regime takes a finite number of values that represent distinct categories (e.g. proper Helmholtz vibration or otherwise), and continuous or descriptive, where the regime is a number or vector that describes the vibration in a generic way (e.g. the mean harmonic-to-noise ratio, or the mean pitch). 
 Sometimes it is possible to relate two regime sets; for instance, we may estimate the regime within a symbolic set given a regime descriptor and some thresholds.
 
-In this project, we will be dealing mainly with two symbolic regime sets: one that tells us whether the current regime is the one described in [(Helmholtz, 1895)][Helmholtz1895] or not, and another that uses a classification similar to the one in [(Raman, 19XX)][Raman19XX]: Anomalous Low-Frequency oscillations (ALF), Multiple Stick-Slip cycles (MSS), Aperiodic motion, Helmholtz motion, and continuous slipping (or sticking). 
+In this project, we will be dealing mainly with two symbolic regime sets: one that tells us whether the current regime is the one described by Helmholtz or not, and another that uses a classification similar to the one in [(Raman, 1918)][Raman1918]: Anomalous Low-Frequency oscillations (ALF), Multiple Stick-Slip cycles (MSS), Aperiodic motion, Helmholtz motion, and continuous slipping (or sticking). 
 For this latter case, we have devised a color palette that we use consistently in plots on our works.
 
 ![](img/colormap.png)
@@ -51,7 +51,7 @@ This is especially relevant in edge cases where, for instance, the string vibrat
 ## Our custom regime detector
 
 In this project, we designed a new detector that relies on whether the string is actually slipping or sticking at each time step. 
-In the model we are using, detailed in [(Maestre, 2013)][Maestre2013], this state appears explicitly in the equations, and is therefore easy to obtain programatically. 
+In the model we are using, detailed in [(Maestre, 2014)][Maestre2014], this state appears explicitly in the equations, and is therefore easy to obtain programatically. 
 In fact, since the model has a finite bow width, we have access to the sticking state of each of the equivalent bow hairs. 
 In this algorithm, we chose to construct a binary variable that tells us whether at least one of the equivalent bow hairs is in a stick state.
 

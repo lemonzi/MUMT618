@@ -19,3 +19,27 @@
   year: 1999
   cite: 'S. Serafin, J. O. Smith, and J. Woodhouse. *An investigation on the impact of torsion waves and friction characteristics on the playability of virtual bowed strings*. In Proceedings of the 1999 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics, New Platz, New York, USA, 1999.'
 
+- author: Schelleng
+  year: 1973
+  cite: 'J. C. Schelleng. *The bowed string and the player*. Journal of the Acoustical Society of America, 53:26–41, 1973.'
+
+- author: Maestre
+  year: 2013
+  cite: 'E. Maestre, G. Scavone, and J. O. Smith. *Digital modeling of bridge driving-point admittances from measurements on violin-family instruments*. In Proceedings of the Stockholm Music Acoustics Conference, 2013.'
+
+- author: Maestre
+  year: 2014
+  cite: 'E Maestre, C. Spa, and J. O. Smith. *A bowed string physical model including finite-width thermal friction and hair dynamics*. In Proceedings of the 2014 International Computer Music Conference, 2014.'
+
+- author: Woodhouse
+  year: 2003
+  cite: 'J. Woodhouse. *Bowed string simulation using a thermal friction model*. Acta Acustica united with Acustica, 89:355–368, 2003.'
+
+- author: Guettler
+  year: 2002
+  cite: 'K. Guettler. *On the creation of the Helmholtz motion in bowed strings*. Acta Acustica united with Acustica, 88(6):970-985, 2002.'
+
+- author: Schoonderwaldt
+  year: 2008
+  cite: 'E. Schoonderwaldt, K. Guettler, and A. Askenfelt. *An empirical investigation of bow-force limits in the Schelleng diagram*. Acta Acustica united with Acustica, 94(4):604-622, 2008.'
+

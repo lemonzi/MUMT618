@@ -18,7 +18,12 @@ Once we have a regime map, it is possible to define metrics that describe the ma
 
 These descriptors depend a lot on the particular regime map we are looking at. In the Schelleng space, several interesting features can be extracted, such as the slope of the minimum and maximum bow forces, which are supposed to be close to the well-known theoretical result.
 
-These descriptors could range from just extracting a function over a one-dimensional domain from the two-dimensional domain of the map to obtaining a single number that describes it, and then computing several maps changing third variables in order to see how this descriptor changes. We would then have a spatial mapping map, that shows how the relationship between some aspects of the model or gesture spaces and the acoustic space change when another aspect of the former is modified. This could be regarded as a higher-level regime map.  
+These descriptors could range from just extracting a function over a one-dimensional domain from the two-dimensional domain of the map to obtaining a single number that describes it, and then computing several maps changing third variables in order to see how this descriptor changes. We would then have a spatial mapping map, that shows how the relationship between some aspects of the model or gesture spaces and the acoustic space change when another aspect of the former is modified. This could be regarded as a higher-level regime map. 
+
+It is using these higher-order representations that the concept of playability can arise again and be approached from a quantitative perspective, since in some cases the descriptors will precisely tell how _nice_ the mapping between gestures and sound is, and then we will be able to study their dependence on the model. An example of a descriptor that probably correlates with how playable a model is would be the Helmholtz Region Dynamic Range, which consists on the difference in dB between the minimum and maximum bow forces for a given bow-bridge distance in the Schelleng map. 
+
+![](img/high_level_regime_map.png)
+*Higher-order mapping map constructed by computing a one-dimensional descriptor of the Schelleng map, the Helmholtz Region Dynamic Range, multiple times using different bow velocities.*
 
 ## The minimum force map descriptor
 

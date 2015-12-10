@@ -14,7 +14,7 @@ Playability is one of the essential characteristics, together with tone, that
 confer to many instruments their identity. New numerical methods for
 physically-based simulation of sound are allowing very detailed studies of how
 instruments respond to slightly different inputs, which is what playability is
-about. This project is a take at better understanding what happens then the driving-point admittance, one of the most intrinsic characteristics of bowed string instruments, changes.
+about. This project is a take at better understanding what happens when the driving-point admittance, one of the most intrinsic characteristics of bowed string instruments, changes.
 
 The different sections are broken down into pages. Please use the left menu for
 navigation, or start [here](intro).
